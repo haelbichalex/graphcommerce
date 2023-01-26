@@ -85,7 +85,7 @@ export async function redirectOrNotFound(
         'DownloadableProduct',
       ])
     ) {
-      if (process.env.NEXT_PUBLIC_SINGLE_PRODUCT_PAGE !== '1') {
+      if (process.env.BUILD_FLAG_SINGLE_PRODUCT_ROUTE !== '1') {
         console.warn('Redirects are only supported for NEXT_PUBLIC_SINGLE_PRODUCT_PAGE')
       }
 
