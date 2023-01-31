@@ -1,5 +1,21 @@
 # Change Log
 
+## 5.2.0
+
+### Minor Changes
+
+- [#1779](https://github.com/graphcommerce-org/graphcommerce/pull/1779) [`6c6d7e4d7`](https://github.com/graphcommerce-org/graphcommerce/commit/6c6d7e4d7cf5d68a39acc82b91e1f3acce366517) - Implementation of the Dutch address fields, add an autocomplete field for the street name and city based of the customers postcode + street number + addition. ([@Jessevdpoel](https://github.com/Jessevdpoel))
+
+- [#1769](https://github.com/graphcommerce-org/graphcommerce/pull/1769) [`2693a616a`](https://github.com/graphcommerce-org/graphcommerce/commit/2693a616af2f9793012a5fb2eeacc084e695b83e) - WaitForCustomer now accepts overridable components for the fallback and unauthenticated state. ([@mikekeehnen](https://github.com/mikekeehnen))
+
+### Patch Changes
+
+- [#1768](https://github.com/graphcommerce-org/graphcommerce/pull/1768) [`23e9a4728`](https://github.com/graphcommerce-org/graphcommerce/commit/23e9a472899dfc0b56b989f5d0e8ffb802c8cc5f) - Move magento-customer-account & magento-customer-order into magento-customer package (magento-customer-account & magento-customer-order are now deprecated) ([@bramvanderholst](https://github.com/bramvanderholst))
+
+- [#1768](https://github.com/graphcommerce-org/graphcommerce/pull/1768) [`7e8dcf447`](https://github.com/graphcommerce-org/graphcommerce/commit/7e8dcf44777aca527c07aaee397d272dd2f6ae44) - Update account address list after deleting an address ([@bramvanderholst](https://github.com/bramvanderholst))
+
+- [#1768](https://github.com/graphcommerce-org/graphcommerce/pull/1768) [`9f0e9ab2d`](https://github.com/graphcommerce-org/graphcommerce/commit/9f0e9ab2dec3f9261ae00e9fd44d06a65ddb1d0d) - Redirect to address overview page after creating an address instead of redirecting to the edit page for the address that was just created ([@bramvanderholst](https://github.com/bramvanderholst))
+
 ## 5.2.0-canary.8
 
 ### Minor Changes

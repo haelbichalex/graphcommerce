@@ -1,5 +1,11 @@
 # @graphcommerce/magento-payment-multisafepay
 
+## 5.2.0
+
+### Patch Changes
+
+- [#1778](https://github.com/graphcommerce-org/graphcommerce/pull/1778) [`bac564119`](https://github.com/graphcommerce-org/graphcommerce/commit/bac5641198b8c91df0e27a730cd663fd177afc70) - add translated label for ideal/msp ([@FrankHarland](https://github.com/FrankHarland))
+
 ## 5.2.0-canary.8
 
 ## 5.2.0-canary.7
